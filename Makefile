@@ -4,6 +4,8 @@ install:
 brain_games:
 	poetry run brain-games
 
+.PHONY: brain_games
+
 build:
 	poetry build
 
