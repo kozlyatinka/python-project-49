@@ -4,6 +4,9 @@
 from brain_games.welcome import welcome_user
 
 
+from brain_games.games import even_game
+
+
 def main():
     welcome_user()
     even_game()
