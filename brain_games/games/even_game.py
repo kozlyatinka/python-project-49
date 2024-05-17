@@ -5,7 +5,11 @@ import random
 import prompt
 
 
+import welcome
+
+
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def even_game():
     answers_count = 0
@@ -22,8 +26,8 @@ def even_game():
             answers_count += 1
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
+            print(f"Let's try again, {welcome.name}!")
             break
 
     if answers_count == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {welcome.name()}")
