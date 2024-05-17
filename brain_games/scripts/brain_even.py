@@ -8,7 +8,7 @@ from brain_games.games import even_game
 
 
 def main():
-    welcome_user(game)
+    welcome_user(even_game)
     even_game()
 
 
