@@ -9,7 +9,6 @@ from brain_games.games import even_game
 
 def main():
     welcome_user(even_game)
-    even_game()
 
 
 if __name__ == '__main__':
