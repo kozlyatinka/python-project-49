@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 import random
-
-
 import prompt
-
-
-import welcome
+from brain_games.welcome import welcome_user
 
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
