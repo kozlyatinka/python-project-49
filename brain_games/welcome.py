@@ -11,13 +11,14 @@ def welcome_user(game):
         correct_answer, random_number = game.even_game()
         print(f'Question: {random_number}')
         answer = prompt.string('Your answer: ')
-        if len(answer) == 0:
+        if not answer:
             print("Enter the answer")
-        if answer.lower() == correct_answer:
+        elif answer.lower() == correct_answer:
             print('Correct!')
             answers_count += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(."
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
 
