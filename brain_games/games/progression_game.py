@@ -2,7 +2,7 @@
 import random
 
 
-DESCRIPTION = 'FWhat number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def func_game():
@@ -17,6 +17,6 @@ def func_game():
 def get_progression():
     number_list = []
     random_step = random.randint(1, 3)
-    for number in range(1, 11, random_step):
+    for number in range(1, 25, random_step):
         number_list.append(number)
     return number_list
