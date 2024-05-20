@@ -1,5 +1,4 @@
 .venv/
 *.cast
-venv
-dist
-__pycache__
+venv/
+dist/
