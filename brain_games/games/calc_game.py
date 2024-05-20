@@ -6,19 +6,19 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def func_game():
-    random_number_one = random.randint(1, 100)
-    random_number_two = random.randint(1, 100)
+    random_one = random.randint(1, 100)
+    random_two = random.randint(1, 100)
     random_operator = random.choice('+-*')
-    question = f'{random_number_one} {random_operator} {random_number_two}'
-    correct_answer = str(calculate(random_number_one, random_number_two, random_operator))
-    return question, correct_answer
-                         
- 
-def calculate(random_number_one, random_number_two, random_operator):
+    question = f'{random_one} {random_operator} {random_two}'
+    correct_answer = str(calculate(random_one, random_two, random_operator))
+    return correct_answer, question
+
+
+def calculate(random_one, random_two, random_operator):
     if random_operator == '*':
-        result = random_number_one * random_number_two
+        result = random_one * random_two
     elif random_operator == '+':
-        result = random_number_one + random_number_two
+        result = random_one + random_two
     elif random_operator == '-':
-        result = random_number_one - random_number_two
+        result = random_one - random_two
     return result
