@@ -23,4 +23,4 @@ def welcome_user(game):
             break
 
     if answers_count == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
