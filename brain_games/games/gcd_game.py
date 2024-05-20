@@ -11,4 +11,4 @@ def func_game():
     random_number_two = random.randint(1, 100)
     question = f'{random_number_one} {random_number_two}'
     correct_answer = math.gcd(random_number_one, random_number_two)
-    return correct_answer, question
+    return str(correct_answer), question
