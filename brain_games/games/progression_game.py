@@ -13,6 +13,7 @@ def func_game():
     question = ' '.join(map(str, progression))
     return correct_answer, question
 
+
 def get_progression():
     number_list = []
     random_step = random.randint(1, 3)
