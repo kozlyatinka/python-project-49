@@ -8,8 +8,8 @@ def welcome_user(game):
     print(game.DESCRIPTION)
     answers_count = 0
     while answers_count < 3:
-        correct_answer, random_number = game.even_game()
-        print(f'Question: {random_number}')
+        correct_answer, question = game.func_game()
+        print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if not answer:
             print("Enter the answer")
