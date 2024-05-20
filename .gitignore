@@ -1,5 +1,5 @@
 .venv/
 *.cast
 venv
-dist/
-brain_games/__pycache__/
+dist
+__pycache__
