@@ -1,1 +1,5 @@
 .venv/
+.cast
+/venv
+/dist
+__pycache__
