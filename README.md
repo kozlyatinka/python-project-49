@@ -3,6 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/479c7cfb147a7ea3c612/maintainability)](https://codeclimate.com/github/kozlyatinka/python-project-49/maintainability)
 
+### Description of project
+Brain games: 1st project with five tasks
+
+### How to install
+python3 -m pip install --user 
+
 ### Game 1: Is That Even? 
 [![asciicast](https://asciinema.org/a/rbViP1cunaXLkGKQshnuRr5o8.svg)](https://asciinema.org/a/rbViP1cunaXLkGKQshnuRr5o8)
 
