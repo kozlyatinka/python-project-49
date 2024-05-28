@@ -17,4 +17,5 @@ def func_game():
 
 
 def even(random_number):
-    return random_number % 2 == 0
+    if random_number % 2 == 0:
+        return True

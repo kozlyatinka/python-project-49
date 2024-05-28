@@ -18,7 +18,7 @@ def func_game():
 
 def prime(random_number):
     if random_number > 1:
-        for i in range(2, random_number):
+        for i in range(2, int(random_number ** 0.5) + 1):
             if random_number % i == 0:
                 return False
             else:
