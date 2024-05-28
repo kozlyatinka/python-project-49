@@ -2,13 +2,14 @@
 import random
 import math
 
-
+LOWER_LIMIT = 1
+UPPER_LIMIT = 50
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def func_game():
-    random_number_one = random.randint(1, 10)
-    random_number_two = random.randint(1, 10)
+def get_values():
+    random_number_one = random.randint(LOWER_LIMIT, UPPER_LIMIT)
+    random_number_two = random.randint(LOWER_LIMIT, UPPER_LIMIT)
     question = f'{random_number_one} {random_number_two}'
     correct_answer = math.gcd(random_number_one, random_number_two)
     return str(correct_answer), question
