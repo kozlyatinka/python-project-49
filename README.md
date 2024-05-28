@@ -3,7 +3,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/479c7cfb147a7ea3c612/maintainability)](https://codeclimate.com/github/kozlyatinka/python-project-49/maintainability)
 
-### Description of project
+### Description of the project
 Brain games: 1st project with five tasks
 
 ### How to install
