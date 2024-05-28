@@ -15,5 +15,6 @@ def func_game():
         correct_answer = 'no'
     return correct_answer, question
 
+
 def even(random_number):
     return random_number % 2 == 0
