@@ -6,7 +6,7 @@ UPPER_LIMIT = 200
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def func_game():
+def get_values():
     random_number = random.randint(LOWER_LIMIT, UPPER_LIMIT)
     question = random_number
     if even(random_number):
