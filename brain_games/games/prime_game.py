@@ -24,4 +24,4 @@ def prime(random_number):
     for i in range(3, int(random_number ** 0.5) + 1, 2):
         if random_number % i == 0:
             return False
-        return True
+    return True
