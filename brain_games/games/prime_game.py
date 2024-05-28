@@ -6,7 +6,7 @@ UPPER_LIMIT = 50
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def func_game():
+def get_values():
     random_number = random.randint(LOWER_LIMIT, UPPER_LIMIT)
     question = random_number
     if prime(random_number):
