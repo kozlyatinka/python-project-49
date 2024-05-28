@@ -13,6 +13,7 @@ def func_game():
         correct_answer = 'no'
     else:
         correct_answer = 'yes'
+    return correct_answer, question
 
 
 def prime(random_number):
