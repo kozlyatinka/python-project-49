@@ -17,7 +17,7 @@ def get_values():
 
 
 def is_prime(random_number):
-    if random_number < 1 or random_number % 2 == 0:
+    if random_number < 2 or random_number % 2 == 0:
         return False
     for i in range(3, int(random_number ** 0.5) + 1, 2):
         if random_number % i == 0:
