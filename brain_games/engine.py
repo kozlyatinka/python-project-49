@@ -9,7 +9,7 @@ def launch(game):
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     answers_count = 0
-    while answers_count < 3:
+    while answers_count < ROUNDS:
         correct_answer, question = game.get_values()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
