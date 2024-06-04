@@ -3,8 +3,8 @@ import random
 
 LOWER_LIMIT = 1
 STEP_UPPER_LIMIT = 3
-UPPER_LIMIT = 20
-MIN_LENGTH = 5
+UPPER_LIMIT = 30
+MIN_LENGTH = 6
 MAX_LENGTH = 15
 DESCRIPTION = 'What number is missing in the progression?'
 
