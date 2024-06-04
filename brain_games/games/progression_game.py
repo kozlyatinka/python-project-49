@@ -23,8 +23,7 @@ def get_values():
 
 def get_progression(initial_term, common_difference, length):
     number_list = []
-    random_step = random.randint(LOWER_LIMIT, STEP_UPPER_LIMIT)
-    end_progression = initial_term + (length * random_step)
+    end_progression = initial_term + (length * common_difference)
     for number in range(initial_term, end_progression, common_difference):
         number_list.append(number)
     return number_list
